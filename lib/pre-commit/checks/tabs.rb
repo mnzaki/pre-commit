@@ -17,7 +17,7 @@ module PreCommit
       if !result
         $stderr.puts check.error_message
         $stderr.puts
-        $stderr.puts 'pre-commit: You can bypass this check using `git commit -n`'
+
         $stderr.puts
       end
 

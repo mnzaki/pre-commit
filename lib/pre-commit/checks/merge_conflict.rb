@@ -14,7 +14,7 @@ module PreCommit
         $stderr.puts 'pre-commit: detected a merge conflict'
         $stderr.puts errors
         $stderr.puts
-        $stderr.puts 'pre-commit: You can bypass this check using `git commit -n`'
+
         $stderr.puts
         false
       else

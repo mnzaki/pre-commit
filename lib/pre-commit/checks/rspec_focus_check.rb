@@ -46,7 +46,7 @@ module PreCommit
     end
 
     def print_dash_n_reminder
-      $stderr.puts 'You can bypass this check using `git commit -n`'
+
       $stderr.puts
     end
 
